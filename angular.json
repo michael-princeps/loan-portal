@@ -35,9 +35,12 @@
             "styles": [
               "node_modules/animate.css/animate.min.css",
               "src/theme.less",
+              "./node_modules/cookieconsent/build/cookieconsent.min.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/cookieconsent/build/cookieconsent.min.js"
+            ]
           },
           "configurations": {
             "production": {
